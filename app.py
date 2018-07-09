@@ -1,6 +1,8 @@
 """tmux-res – TMUX Resurrect utility tool
 
 Author: Alexander Hultnér
+ .
+..:
 
 I have not tested this yet but an idea I've had is to run the clean command as
 a weekly cronjob, that way we can keep our resurrect-directory clean and tidy
@@ -12,7 +14,7 @@ which I've considered. Listing them below.
 TODO:
     - [x] Recover `last` link to latest state
     - [x] Archive resurrect files older then given treshold (clean up)
-    - [ ] Publish to Github
+    - [x] Publish to Github
     - [ ] Write tests (pytest+hypothesis)
     - [ ] Travis CI/CD
     - [ ] Codacy code quality, coverage
