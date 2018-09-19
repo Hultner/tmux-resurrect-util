@@ -21,4 +21,3 @@ raise NotImplementedError("Tests aren't formalized yet")
 # clean, assert unchanged
 # link, assert latest
 # link again, assert unchanged/aborted/error
-
