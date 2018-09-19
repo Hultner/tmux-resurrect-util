@@ -1,3 +1,5 @@
+#!usr/bin/env sh
+
 from setuptools import setup
 
 setup(
