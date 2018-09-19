@@ -12,3 +12,4 @@ tmux-res = {path = "."}
 
 [requires]
 python_version = "3.7"
+allow_prereleases = true
