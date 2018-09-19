@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="tmux-res",
-    version="0.3",
+    version="0.4.1",
     py_modules=["app"],
     install_requires=["Click", "python-dotenv"],
     entry_points="""

@@ -114,7 +114,11 @@ def load_conf() -> None:
     load_dotenv(dotenv_path=env_path)
 
     global RESURRECT_PATH
-    RESURRECT_PATH = Path(os.getenv("RESURRECT_PATH")).expanduser().resolve()
+    RESURRECT_PATH = (
+        Path(os.getenv("RESURRECT_PATH", default="~/.tmux/resurrect"))
+        .expanduser()
+        .resolve()
+    )
     verbose(RESURRECT_PATH)
 
     if not RESURRECT_PATH.is_dir():
@@ -215,6 +219,10 @@ def link_last():
 
     if last.exists():
         return echo(f"Link to last already exists:\n {last} \n  -> {last.resolve()}")
+    elif last.is_symlink():
+        # Symlink exists but links to non-existant file
+        # This can happen if tmux terminated while saving resurrect state
+        last.unlink()
 
     parse_states()
 
