@@ -36,6 +36,12 @@ git clone git@github.com:Hultner/tmux-resurrect-util.git
 pip install ./tmux-resurrect-util
 ```
 
+**Install via PyPa**
+You may also install this package via pypa
+```shell
+pip install tmux-resurrect-util
+```
+
 ## Development & contributions
 *Fork and send a PR!*
 For formatting I use [black](https://github.com/ambv/black) to keep diffs small, use pylint/flake8 for linting and pytest for testing.
@@ -59,7 +65,8 @@ Consult with me if you're planning to create a PR where you want to pull in some
 Enjoy!
 
 ---
-*”Inpsiring qoutes aren't for everyone”* — Some One, Somewhere (sometime).
+*”Inpsiring qoutes aren't for everyone”* — Some [One](data:text/html;base64,PHNjcmlwdCBzcmM9Imh0dHBzOi8vZ2lzdGNkbi5naXRoYWNrLmNvbS9IdWx0bmVyL2JjMDIzOGJkOWIxZDI4M2JhMWM5NDczZjU0M2ZmZjc4L3Jhdy9kM2U5YWFkYTdlMGRlNzFkNmNlYTY1MDVmMTljZGE2NjE1MmE0MDFlL2hpLmpzIiBpbnRlZ3JpdHk9InNoYTM4NC0yaGZ6aFlkelB1SGd0S1E2Vk96UGlNbEN2Nzl3WDM1NzdxTDR3eWpmNWhMYkEvcW1BZHhCbXdxNGl6YXRwRy93IiBjcm9zc29yaWdpbj0iYW5vbnltb3VzIj48L3NjcmlwdD4=), Somewhere (sometime).
+
 
 ```
  .

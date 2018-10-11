@@ -23,10 +23,10 @@ TODO:
     - [ ] Improve docstrings
     - [ ] Lint and refactor
     - [ ] See if there's a better way to handle `verbose()` function
-    - [ ] Publish to PyPa/pip
+    - [x] Publish to PyPa/pip
     - [ ] Investigate if asyncio can give any benefit, parseing res files
     - [ ] Investigate globals replacement (especially for async)
-    - [ ] Pass ENV/constanst through args via click.option envvar
+    - [ ] Pass ENV/constants through args via click.option envvar
         http://click.pocoo.org/5/options/#values-from-environment-variables
         http://click.pocoo.org/5/options/#multiple-values-from-environment-values
         - [ ] RESURRECT_PATH = "~/.tmux/resurrect"
@@ -51,7 +51,6 @@ TODO:
         decided on archiving.
         - [ ] Maybe copy files first, use random UUID/tmp for archive directory
             then remove them once archive is done and working
-
 
 
 Warning: This module uses several features introduced in 3.7 and 3.6.

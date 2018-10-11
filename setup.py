@@ -2,9 +2,17 @@
 
 from setuptools import setup
 
+with open('README.md') as f:
+    long_description = f.read()
+
 setup(
     name="tmux-res",
-    version="0.4.1",
+    author="Alexander Hultnér",
+    author_email="ahultner@gmail.com",
+    description="Handles your tmux resurrect files",
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    version="0.4.7",
     py_modules=["app"],
     install_requires=["Click", "python-dotenv"],
     entry_points="""
