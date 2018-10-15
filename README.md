@@ -36,8 +36,8 @@ git clone git@github.com:Hultner/tmux-resurrect-util.git
 pip install ./tmux-resurrect-util
 ```
 
-**Install via PyPa**
-You may also install this package via pypa
+**Install via pip**
+You may also install this package through pip via PyPI
 ```shell
 pip install tmux-resurrect-util
 ```
