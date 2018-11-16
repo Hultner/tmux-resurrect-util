@@ -12,7 +12,7 @@ setup(
     description="Handles your tmux resurrect files",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    version="0.4.7",
+    version="0.4.8",
     py_modules=["app"],
     install_requires=["Click", "python-dotenv"],
     entry_points="""
