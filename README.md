@@ -39,7 +39,7 @@ pip install ./tmux-resurrect-util
 **Install via pip**
 You may also install this package through pip via PyPI
 ```shell
-pip install tmux-resurrect-util
+pip install tmux-res
 ```
 
 ## Development & contributions
